@@ -1,5 +1,7 @@
 package Chapter_1;
 
+// # 7 # простой пример класса носителя информации # Coin.java
+
 public class Coin {
     public double diameter; // encapsulation violation
     private double weight;  // correct encapsulation

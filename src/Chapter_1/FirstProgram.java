@@ -1,5 +1,7 @@
 package Chapter_1;
 
+// # 2 # простое объектно-ориентированное приложение # FirstProgram.java
+
 public class FirstProgram {
     public static void main(String[] args) {
         // declaring and creating an object
