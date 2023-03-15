@@ -11,7 +11,7 @@ public class ScannerMain {
         String name = scan.next();
         System.out.println("hello, " + name);
         int num = scan.nextInt();
-        System.out.println("number= " + name);
+        System.out.println("number= " + num);
         scan.close();
     }
 }
