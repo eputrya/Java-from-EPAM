@@ -8,7 +8,7 @@ public class Order {
     // class instance final variable
     public final int CURRENT_RANGE = (int) (Math.random() * 42);
     // class instance final variable
-    private final MutableType mutable = new MutableType();
+    // private final MutableType mutable = new MutableType();
     // class/static final variable
     public final static int PURCHASE_TAX = 5;
 
