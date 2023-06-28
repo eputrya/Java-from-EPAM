@@ -1,5 +1,6 @@
 package Chapter_3;
 
+/* # 1 # типы атрибутов и переменных # Order.java */
 public class Order {
     // class instance variable
     private long orderId;

@@ -1,5 +1,6 @@
 package Chapter_3;
 
+/* # 2 # конструкторы # Account.java */
 public class Account {
     private long accountId;
     private double asset;
