@@ -13,6 +13,9 @@ public class Order {
     // class/static final variable
     public final static int PURCHASE_TAX = 5;
 
+    public Order(long l, double v) {
+    }
+
     // constructors
     // methods
     public double calculatePrice(double price, int counter) {
