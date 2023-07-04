@@ -20,7 +20,7 @@ public class OverloadMain {
         printArgCount(i, i, i);
         printArgCount(i, 4, 42);
         printArgCount(i); // call method 1
-        printArgCount(42, 7);
+        // printArgCount(42, 7);
         // printArgCount(); // compile error: overload uncertainty!
     }
 }
