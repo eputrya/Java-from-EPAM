@@ -8,9 +8,9 @@ public class MatrixRefactoring {
         this.a = a;
     }
 
-    public MatrixRefactoring(int n, int m) throws Exception {
+    public MatrixRefactoring(int n, int m) throws MatrixException {
         if (n < 1 || m < 1) { // check input
-            throw new Exception();
+            throw new MatrixException();
         }
         a = new int[n][m];
     }
@@ -23,19 +23,19 @@ public class MatrixRefactoring {
         return a[0].length;
     }
 
-    public int getElement(int i, int j) throws Exception {
+    public int getElement(int i, int j) throws MatrixException {
         if (checkRange(i, j)) { // check i & j
             return a[i][j];
         } else {
-            throw new Exception();
+            throw new MatrixException();
         }
     }
 
-    public void setElement(int i, int j, int value) throws Exception {
+    public void setElement(int i, int j, int value) throws MatrixException {
         if (checkRange(i, j)) {
             a[i][j] = value;
         } else {
-            throw new Exception();
+            throw new MatrixException();
         }
     }
 
