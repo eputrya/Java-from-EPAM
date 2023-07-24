@@ -18,7 +18,7 @@ class Point2D extends Point1D {
     }
 }
 
-class Point3D extends Point2D {
+class Point3D extends Point2Dv2 {
     private int z;
 
     public Point3D(int x, int y, int z) {
