@@ -2,7 +2,7 @@ package Chapter_4;
 
 /* # 4 # попытка переопределения final-метода # MasterCardAction.java
 # VisaCardAction.java */
-public class MasterCardAction extends CreditCardAction {
+public class MasterCardAction extends CreditCardActionv2 {
     @Override // doPayment() cannot be polymorphic
     public final void doPayment(double amountPayment) {
         System.out.println("complete from MasterCard");
