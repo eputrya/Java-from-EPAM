@@ -2,7 +2,7 @@ package Chapter_4;
 
 /* # 17 # переопределение методов equals(), hashCode(), toString() # Student.java */
 
-public class Student {
+public class Student implements Cloneable {
     private int id;
     private String name;
     private int yearOfStudy;
@@ -59,5 +59,10 @@ public class Student {
         sb.append(", yearOfStudy=").append(yearOfStudy);
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
